@@ -1,0 +1,19 @@
+Konstantinos Betchavas AM:1115201300116
+
+Ftiaxnoume ta arxeia me $make kai to trexoume me $java Main <inputfiles>..
+
+Ta apotelesmata, dhladh ta .ll arxeia, topothetountai mesa sto results/ directory!!
+
+Me xrhsh tou tupou, $clang-4.0 -o results/out results/(onoma arxeiou).ll, kanoume compile tou llvm arxeiou se executable.Sto sugkekrimeno paradeigma to out topotheteitai mesa sto results fakelo.
+
+Sto telos apla ekteloume to out, p.x. $./results/out.
+
+------------------------------------------------------
+
+To ClassDeclarations leitourgei san symboltable gia ta declarations twn classewn (variables & methods) kai upologizei ta offsets.
+
+To ClassesInfoVisitor ftiaxnei ta ClassDeclarations gia oles tis classeis kai krataei kai plhrofories.
+
+To TypeCheckerVisitor kanei tous elegxous pou afora kuriws ta executions sthn main kai sta methods me thn vohtheia twn ClassDeclarations pou vrhkame me ton ClassesInfoVisitor.
+
+To LLVMGenerationVisitor xrhsimopoiei auta pou vrhkame me ta prohgoumena kai metatrepei ton minijava kwdika se llvm.Xrhsimopoiei ta ClassDeclarations kai ta offsets wste na ginei swsth xrhsh twn classewn apo ta prohgoumena java arxeia.
