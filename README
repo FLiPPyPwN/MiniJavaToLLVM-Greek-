@@ -17,3 +17,8 @@ To ClassesInfoVisitor ftiaxnei ta ClassDeclarations gia oles tis classeis kai kr
 To TypeCheckerVisitor kanei tous elegxous pou afora kuriws ta executions sthn main kai sta methods me thn vohtheia twn ClassDeclarations pou vrhkame me ton ClassesInfoVisitor.
 
 To LLVMGenerationVisitor xrhsimopoiei auta pou vrhkame me ta prohgoumena kai metatrepei ton minijava kwdika se llvm.Xrhsimopoiei ta ClassDeclarations kai ta offsets wste na ginei swsth xrhsh twn classewn apo ta prohgoumena java arxeia.
+
+
+------------------------------------------------------
+
+To repository αυτό αφορά το 2ο και 3ο κομμάτι της εργασίας στο pdf.Αν θέλουμε να συμπεριληφθεί και το 2ο κομμάτι βγάζουμε το σχόλιο που δεν επιτρέπει την εκτύπωση των offsets των κλάσεων που αφορά το κομμάτι αυτό.
